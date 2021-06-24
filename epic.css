@@ -5,6 +5,7 @@
 
 h1 {
     border: 10px solid rgb(58, 52, 52);
+    font-weight: bolder;
 }
 
 * {
