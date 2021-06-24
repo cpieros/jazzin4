@@ -29,6 +29,6 @@ a:hover {
     color: coral;
 }
 
-.rankings{
+.point_guards, .shooting_guards, .small_forwards, .power_forwards, .centers{
     background-color: firebrick !important;
 }
