@@ -30,5 +30,5 @@ a:hover {
 }
 
 .rankings h2{
-    background-color: firebrick;
+    background-color: firebrick !important;
 }
