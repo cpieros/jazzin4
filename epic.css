@@ -6,6 +6,7 @@
 header{
     background-image: url(./dmitch.jpg);
     opacity: .35;
+    height: 75px;
 }
 h1 {
     border: 10px solid rgb(58, 52, 52);
