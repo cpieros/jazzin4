@@ -1,0 +1,17 @@
+
+* {
+    background-color: rgb(90, 162, 185);
+}
+
+h1 {
+    border: 10px solid rgb(58, 52, 52)
+}
+
+h2 {
+    border-top: 5px solid black;
+}
+
+footer {
+    border-top: 2px solid black;
+    border-bottom: 3px solid black;
+}
