@@ -3,6 +3,10 @@
     background-color: rgb(167, 221, 240);
 }
 
+header{
+    background-image: url(./dmitch.jpg);
+    opacity: .35;
+}
 h1 {
     border: 10px solid rgb(58, 52, 52);
     font-weight: bolder;
@@ -30,5 +34,5 @@ a:hover {
 }
 
 .point_guards, .shooting_guards, .small_forwards, .power_forwards, .centers{
-    background-color: firebrick !important;
+    background-color: rgb(117, 60, 60) !important;
 }
