@@ -3,10 +3,12 @@
     background-color: rgb(167, 221, 240);
 }
 
-* {
+h1 {
     background-image: url(./dmitch.jpg);
     opacity: 0.5;
+    padding: 200px;
 }
+
 h1 {
     border: 10px solid rgb(58, 52, 52);
     font-weight: bolder;
