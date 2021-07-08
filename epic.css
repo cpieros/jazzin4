@@ -38,6 +38,6 @@ a:hover {
     color: coral;
 }
 
-.point_guards, .shooting_guards, .small_forwards, .power_forwards, .centers{
+.point_guards, .shooting_guards, .small_forwards, .power_forwards, .centers, .team{
     background-color: rgb(117, 60, 60) !important;
 }
