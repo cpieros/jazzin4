@@ -10,6 +10,8 @@
     Make private repo
 
     This has instant deployment. Study web servers to better understand this
+
+    Pause on website after today
 -->
 
 <html>
@@ -26,25 +28,70 @@
     </header>
     
     <nav class="menu">
-      <ul>
+      <span>
         <li><a href = "./index.html">Home</a></li>
+      </span>
+      <ul>
+          <!--Will probably need to adjust font size on this-->
+          <!--Alphabetize? Could I do this automatically with something like php?-->
+          <!--
+             Skill practice: matching with interest to maximize learning, do a bit each day?
+
+              IDE for previewing web pages and html documents?
+                IntelliJ IDEA <- There os some, here is a 
+                highly rated one
+            -->
+          <li><a href="#UTA">Utah Jazz</a></li>
+          <li><a href="#DET">Detroit Pistons</a></li>
+          <li><a href="#PHO">Phoenix Suns</a></li>
+          <li><a href="#ORL">Orlando Magic</a></li>
+          <li><a href="#DEN">Denver Nuggets</a></li>
+
+          <li><a href="#CLE">Cleveland Cavaliers</a></li>
+          <li><a href="#LAC">Los Angeles Clippers</a></li>
+          <li><a href="#CHI">Chicago Bulls</a></li>
+          <li><a href="#DAL">Dallas Mavericks</a></li>
+          <li><a href="#TOR">Toronto Raptors</a></li>
+
+          <li><a href="#POR">Portland Trailblazers</a></li>
+          <li><a href="#CHO">Charlotte Hornets</a></li>   
+          <li><a href="#LAL">Los Angeles Lakers</a></li>
+          <li><a href="#IND">Indiana Pacers</a></li>
+          <li><a href="#MEM">Memphis Grizzlies</a></li>
+
+          <li><a href="#WAS">Washington Wizards</a></li>
+          <li><a href="#GSW">Golden State Warriors</a></li>
+          <li><a href="#BOS">Boston Celtics</a></li>
+          <li><a href="#SAS">San Antonio Spurs</a></li>
+          <li><a href="#MIA">Miami Heat</a></li>
+
+          <li><a href="#NOP">New Orleans Pelicans</a></li>
+          <li><a href="#NYK">New York Knicks</a></li>
+          <li><a href="#SAC">Sacramento Kings</a></li>
+          <li><a href="#ATL">Atlanta Hawks</a></li>
+          <li><a href="#MIN">Minnesota Timberwolves</a></li>
+          
+          <li><a href="#MIL">Milwaukee Bucks</a></li>
+          <li><a href="#HOU">Houston Rockets</a></li>
+          <li><a href="#BKN">Brooklyn Nets</a></li>
+          <li><a href="#OKC">Oklahoma City Thunder</a></li>
+          <li><a href="#PHI">Philadelphia 76ers</a></li>
       </ul>
     </nav>
     <!-- 
-        Power Rankings Teams
+        Power Rankings Teams!
+        All time Starting 5s
+
             UTA: PHO: DEN: LAC: DAL: POR: LAL: MEM: 
-            GSW: SAS: NOP: SAC: MIN: HOU: 
+            GSW: SAS: NOP: SAC: MIN: HOU: OKC: 
             
-            OKC: 
-            PHI: BKN: 
-            
-            MIL: ATL: NYK: MIA: BOS: WAS: 
+            PHI: BKN: MIL: ATL: NYK: MIA: BOS: WAS: 
             IND: CHO: TOR: CHI: CLE: ORL: DET:   
     -->
     <article class="team personell">
       <!--Team 1-->  
       <section class="team">
-        <h2>Utah Jazz</h2>
+        <h2 class="UTA">Utah Jazz</h2>
         <!--Test of download attribute. Prediction: printable document?-->
         <!--One of 2 Number 1 seeds to lose in the second round this year. The matchups were 3/5 and 2/4-->
         <ul>
@@ -61,7 +108,7 @@
       </section>
       <!--Team 2-->
       <section class="team">
-        <h2>Detroit Pistons</h2>
+        <h2 class="DET">Detroit Pistons</h2>
         <ul>
             <li>
                 Best Offensive Player: <a href ="https://en.wikipedia.org/wiki/Jerami_Grant" target="_blank">Jerami Grant (2014), SF/PF</a>        
@@ -76,7 +123,7 @@
       </section>
       <!--Team 3-->
       <section class="team">
-        <h2>Phoenix Suns</h2>
+        <h2 class="PHO">Phoenix Suns</h2>
         <ul>
             <li>
                 Best Offensive Players - TIE: <a href="https://en.wikipedia.org/wiki/Devin_Booker" target="_blank">**Devin Booker (2015), SG </a>
@@ -92,7 +139,7 @@
       </section>
       <!--Team 4-->
       <section class="team">
-        <h2>Orlando Magic</h2>
+        <h2 class="ORL">Orlando Magic</h2>
         <ul>
             <li>
                 Best Offensive Player: <a href="https://en.wikipedia.org/wiki/Terrence_Ross" target="_blank">Terrence Ross (2012), SG/SF</a>
@@ -107,7 +154,7 @@
       </section>
       <!--Team 5-->
       <section class="team">
-        <h2>Denver Nuggets</h2>  
+        <h2 class="DEN">Denver Nuggets</h2>  
         <ul>
             <li>
                 Best Offensive Player: <a href="https://en.wikipedia.org/wiki/Nikola_Jokic" target="_blank">Nikola Jokic (2015), C**</a>
@@ -122,7 +169,7 @@
       </section>
       <!--Team 6-->
       <section class="team">
-        <h2>Cleveland Cavaliers</h2>
+        <h2 class="CLE">Cleveland Cavaliers</h2>
         <ul>
             <li>
                 Best Offensive Player: <a href="https://en.wikipedia.org/wiki/Collin_Sexton" target="_blank">Collin Sexton (2018), PG/SG</a>
@@ -137,7 +184,7 @@
       </section>
       <!--Team 7-->
       <section class="team">
-        <h2>Los Angeles Clippers</h2>
+        <h2 class="LAC">Los Angeles Clippers</h2>
         <ul>
             <li>
                 Best Offensive Player: <a href="https://en.wikipedia.org/wiki/Kawhi_Leonard" target="_blank">Kawhi_Leonard (2011), SF**</a>
@@ -152,7 +199,7 @@
       </section>
       <!--Team 8-->
       <section class="team">
-          <h2>Chicago Bulls</h2>
+          <h2 class="CHI">Chicago Bulls</h2>
           <ul>
               <li>
                   Best Offensive Player: <a href="https://en.wikipedia.org/wiki/Zach_Lavine" target="_blank">Zach Lavine (2014), SG</a>
@@ -167,7 +214,7 @@
       </section>
       <!--Team 9-->
       <section class="team">
-          <h2>Dallas Mavericks</h2>
+          <h2 class="DAL">Dallas Mavericks</h2>
           <ul>
               <li>
                 Best Offensive Player: <a href="https://en.wikipedia.org/wiki/Luka_Doncic" target="_blank">Luka Doncic (2018), PG/SG/SF**</a>
@@ -182,7 +229,7 @@
       </section>
       <!--Team 10-->
       <section class="team">
-          <h2>Toronto Raptors</h2>
+          <h2 class="TOR">Toronto Raptors</h2>
           <ul>
               <li>
                   Best Offensive Player: <a href="https://en.wikipedia.org/wiki/Pascal_Siakam" target="_blank">Pascal Siakam (2016), PF</a>
@@ -197,7 +244,7 @@
       </section>
       <!--Team 11-->
       <section class="team">
-          <h2>Portland Trailblazers</h2>
+          <h2 class="POR">Portland Trailblazers</h2>
           <ul>
               <li>
                   Best Offensive Player: <a href="https://en.wikipedia.org/wiki/Damian_Lillard" target="_blank">Damian Lillard (2012), PG**</a>
@@ -212,7 +259,7 @@
       </section>
       <!--Team 12-->
       <section class="team">
-          <h2>Charlotte Hornets</h2>
+          <h2 class="CHO">Charlotte Hornets</h2>
           <ul>
               <li>
                   Best Offensive Player: <a href="https://en.wikipedia.org/wiki/Gordon_Hayward" target="_blank">Gordon Hayward (2010), SF</a>
@@ -227,7 +274,7 @@
       </section>
       <!--Team 13-->
       <section class="team">
-          <h2>Los Angeles Lakers</h2>
+          <h2 class="LAL">Los Angeles Lakers</h2>
           <ul>
               <li>
                   Best Offensive Player: <a href="https://en.wikipedia.org/wiki/LeBron_James" target="_blank">LeBron James (2003), SF**</a>
@@ -242,7 +289,7 @@
       </section>
       <!--Team 14-->
       <section class="team">
-          <h2>Indiana Pacers</h2>
+          <h2 class="IND">Indiana Pacers</h2>
           <ul>
               <li>
                   Best Offensive Player: <a href="https://en.wikipedia.org/wiki/Domantas_Sabonis" target="_blank">Domantas Sabonis (2016), PF/C**</a>
@@ -257,7 +304,7 @@
       </section>
       <!--Team 15-->
       <section class="team">
-          <h2>Memphis Grizzlies</h2>
+          <h2 class="MEM">Memphis Grizzlies</h2>
           <ul>
               <li>
                   Best Offensive Player: <a href="https://en.wikipedia.org/wiki/Ja_Morant" target="_blank">Ja Morant (2019), PG</a>
@@ -272,7 +319,7 @@
       </section>
       <!--Team 16-->
       <section class="team">
-          <h2>Washington Wizards</h2>
+          <h2 class="WAS">Washington Wizards</h2>
           <ul>
               <li>
                   Best Offensive Player: <a href="https://en.wikipedia.org/wiki/Bradley_Beal" target="_blank">**Bradley Beal (2012), SG</a>
@@ -287,7 +334,7 @@
       </section>
       <!--Team 17-->
       <section class="team">
-          <h2>Golden State Warriors</h2>
+          <h2 class="GSW">Golden State Warriors</h2>
           <ul>
               <li>
                   Best Offensive Player: <a href="https://en.wikipedia.org/wiki/Stephen_Curry" target="_blank">Stephen Curry (2009), PG**</a>
@@ -302,7 +349,7 @@
       </section>
       <!--Team 18-->
       <section class="team">
-          <h2>Boston Celtics</h2>
+          <h2 class="BOS">Boston Celtics</h2>
           <ul>
               <li>
                   Best Offensive Player: <a href="https://en.wikipedia.org/wiki/Jayson_Tatum" target="_blank">Jayson Tatum (2017), SF/PF**</a>
@@ -317,7 +364,7 @@
       </section>
       <!--Team 19-->
       <section class="team">
-          <h2>San Antonio Spurs</h2>
+          <h2 class="SAS">San Antonio Spurs</h2>
           <ul>
               <li>
                   Best Offensive Player: <a href="https://en.wikipedia.org/wiki/DeMar_DeRozan" target="_blank">DeMar DeRozan (2009), SF</a>
@@ -332,7 +379,7 @@
       </section>
       <!--Team 20-->
       <section class="team">
-          <h2>Miami Heat</h2>
+          <h2 class="MIA">Miami Heat</h2>
           <ul>
               <li>
                   Best Offensive Player: <a href="https://en.wikipedia.org/wiki/Jimmy_Butler" target="_blank">**Jimmy Butler (2011), SG/SF</a>
@@ -347,7 +394,7 @@
       </section>
       <!--Team 21-->
       <section class="team">
-          <h2>New Orleans Pelicans</h2>
+          <h2 class="NOP">New Orleans Pelicans</h2>
           <ul>
               <li>
                   Best Offensive Player - TIE: <a href="https://en.wikipedia.org/wiki/Zion_Williamson" target="_blank">Zion Williamson (2019), PF</a>
@@ -363,7 +410,7 @@
       </section>
       <!--Team 22-->
       <section class="team">
-          <h2>New York Knicks</h2>
+          <h2 class="NYK">New York Knicks</h2>
           <ul>
               <li>
                   Best Offensive Player: <a href="https://en.wikipedia.org/wiki/Julius_Randle" target="_blank">Julius Randle (2014), PF**</a>
@@ -378,7 +425,7 @@
       </section>
       <!--Team 23-->
       <section class="team">
-          <h2>Sacramento Kings</h2>
+          <h2 class="SAC">Sacramento Kings</h2>
           <ul>
               <li>
                   Best Offensive PLayer: <a href="https://en.wikipedia.org/wiki/De'Aaron_Fox" target="_blank">De'Aaron Fox (2017), PG</a>
@@ -393,7 +440,7 @@
       </section>
       <!--Team 24-->
       <section class="team">
-          <h2>Atlanta Hawks</h2>
+          <h2 class="ATL">Atlanta Hawks</h2>
           <ul>
               <li>
                   Best Offensive Player: <a href="https://en.wikipedia.org/wiki/Trae_Young" target="_blank">Trae Young (2018), PG**</a>
@@ -408,7 +455,7 @@
       </section>
       <!--Team 25-->
       <section class="team">
-          <h2>Minnesota Timberwolves</h2>
+          <h2 class="MIN">Minnesota Timberwolves</h2>
           <ul>
               <li>
                   Best Offensive Player: <a href="https://en.wikipedia.org/wiki/Karl-Anthony_Towns" target="_blank">Karl-Anthony Towns (2015), C</a>
@@ -423,7 +470,7 @@
       </section>
       <!--Team 26-->
       <section class="team">
-          <h2>Milwaukee Bucks</h2>
+          <h2 class="MIL">Milwaukee Bucks</h2>
           <li>
               Best Offensive Player: <a href="https://en.wikipedia.org/wiki/Giannis_Antetokounmpo" target="_blank">Giannis Antetokounmpo (2013), PF**</a>
           </li>
@@ -436,7 +483,7 @@
       </section>
       <!--Team 27-->
       <section class="team">
-          <h2>Houston Rockets</h2>
+          <h2 class="HOU">Houston Rockets</h2>
           <li>
               Best Offensive Player: <a href="https://en.wikipedia.org/wiki/John_Wall" target="_blank">John Wall (2010), PG</a>
           </li>
@@ -449,7 +496,7 @@
       </section>
       <!--Team 28-->
       <section class="team">
-          <h2>Brooklyn Nets</h2>
+          <h2 class="BKN">Brooklyn Nets</h2>
           <li>
               Best Offensive Player - TIE: <a href="https://en.wikipedia.org/wiki/Kevin_Durant" target="_blank">Kevin Durant (2007), SF/PF**</a>
                | <a href="https://en.wikipedia.org/wiki/James_Harden" target="_blank">James Harden (2009), PG/SG**</a>
@@ -463,7 +510,7 @@
       </section>
       <!--Team 29-->
       <section class="team">
-          <h2>Oklahoma City Thunder</h2>
+          <h2 class="OKC">Oklahoma City Thunder</h2>
           <li>
               Best Offensive Player: <a href="https://en.wikipedia.org/wiki/Shai_Gilgeous-Alexander" target="_blank">Shai Gilgeous-Alexander (2018), PG/SG</a>
           </li>
@@ -476,7 +523,7 @@
       </section>
       <!--Team 30-->
       <section class="team">
-          <h2>Philadelphia 76ers</h2>
+          <h2 class="PHI">Philadelphia 76ers</h2>
           <li>
               Best Offensive Player: <a href="https://en.wikipedia.org/wiki/Joel_Embiid" target="_blank">Joel Embiid (2014), C**</a>
           </li>
@@ -485,7 +532,7 @@
           </li>
           <li>
               Head Coach: <a href="https://en.m/wikipedia.org/wiki/Doc_Rivers" target="_blank">Doc Rivers</a>
-              <!--I wonder what en.m is, as compated to en. Look into this if free, pretty niche detail.-->
+              <!--I wonder what en.m is, as compated to en. Look into this if free, pretty niche detail. Scarcity.-->
           </li>
       </section>
       
@@ -509,4 +556,6 @@
 <!--
     PHP function that will take draft year and calculate years played in the league (full injury seasons do still count)
     Transfer this project to a private repo
+
+    Messin' round with html 
 -->
